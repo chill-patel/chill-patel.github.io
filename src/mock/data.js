@@ -9,19 +9,22 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is ',
-  name: 'Sunil',
-  subtitle: 'I like to make stuff with code',
+  title: 'Hi all 👋',
+  name: `I'm Sunil.`,
+  subtitle: `Sr. Fullstack Developer | Entrepreneur.`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I'm a professional and passionate Software Developer focused on efficiency and constant learning.`,
-  paragraphTwo: `I have created solutions for my clients by improving their web development processes and accomplish their ideas come true, either from the front-end or the back-end mostly using JavaScript, React, Gatsby, Node, Express.js & MongoDB.`,
-  paragraphThree: `I would love to set up an introduction call to discuss how I could help your business and make your goals happen.`,
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraph: [
+    `Hello! I'm Sunil 4+ year of experience as, a software engineer based in Mumbai, India.`,
+    `I develop exceptional mobile app, web app, and and modern backends.
+  Here are a few technologies I've been working with recently. JavaScript, Angular, React Native, Node, Express.js, Serverless, PostgresSQL & MongoDB.`,
+    `I would love to set up an introduction call to discuss how I could help your business and make your goals happen.`,
+  ],
+  resume: 'https://sunil-doc.s3.ap-south-1.amazonaws.com/sunil_fullstack_developer.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,9 +33,12 @@ export const projectsData = [
     id: uuidv1(),
     img: 'bizanalyst.jpg',
     title: 'Tally On Mobile',
-    info: `
-    Biz Analyst Tally mobile app brings real time information & allows you to access your Tally ERP9 data anytime / anywhere. It is securely synced with your Tally ERP9 installation.`,
-    info2: '',
+    info: [
+      ` Biz Analyst Tally mobile app brings real time information & allows you to access your Tally ERP9 data anytime / anywhere.`,
+      `It is securely synced with your Tally ERP9 installation.`,
+      `Team Size of 7 people`,
+    ],
+    info2: `Tech used: Electron js, Node js, Serverless, Angular, DyanamoDB, MongoDB, Postgres`,
     url: 'https://bizanalyst.in/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -40,8 +46,12 @@ export const projectsData = [
     id: uuidv1(),
     img: 'b2x.jpg',
     title: 'B2X Solutions',
-    info: 'After sales service',
-    info2: '',
+    info: [
+      'New After-Sales Solution for mobile OEM',
+      `Handle mobile repair center for OEM like Google, Apple Samsung.`,
+      `Team Size of 6 people`,
+    ],
+    info2: `Tech used: Express js, Node js, Angular js, Postgres`,
     url: 'https://b2x.com',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -49,10 +59,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'gymbook.jpg',
     title: 'GymBook',
-    info: 'Help Gym owner to manage their gym',
-    info2: '',
-    url: 'https://b2x.com',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: ['Help Gym owner to manage their gym', `Founder of App, 3000+ Register user`],
+    info2: 'Tech used: Express js, Node js, MongoDB, React Native',
+    url: 'https://gymbook.in',
   },
 ];
 
